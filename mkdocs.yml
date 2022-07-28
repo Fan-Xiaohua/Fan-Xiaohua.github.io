@@ -51,9 +51,9 @@ extra:
 nav:
   - STUDY_RECORDS:
       - STUDY_RECORDS/index.md
-      - notion: STUDY_RECORDS/notion/notion.md
-      - docker: STUDY_RECORDS/docker/docker.md
-      - cleancode: STUDY_RECORDS/cleancode/cleancode.md
+      - notion: STUDY_RECORDS/Notion/notion.md
+      - docker: STUDY_RECORDS/Docker/docker.md
+      - cleancode: STUDY_RECORDS/Cleancode/cleancode.md
   - REPRODUCE:
       - REPRODUCE/index.md
   - ABOUT:
