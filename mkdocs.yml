@@ -1,14 +1,14 @@
 # [Info]
-site_name: Fan-Xiaohua的个人网站 # 左上角标题
+site_name: Fan-Xiaohua's Personal Website # 左上角标题
 site_url: https://fan-xiaohua.github.io
 site_author: Fan-Xiaohua
-site_description: Fan-Xiaohua的个人网站
+site_description: Fan-Xiaohua's personal website
 
 # [UI]
 ## [top]
 theme:
   name: material
-  palette: 
+  palette:
     - scheme: default # 日间模式
       primary: green # 上方的
       accent: red # 链接等可交互元件的高亮色
@@ -28,7 +28,7 @@ theme:
     - navigation.expand # 打开Tab时左侧目录全部展开
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
-  language: zh # 一些提示性的文字会变成中文
+  language: en # 一些提示性的文字会变成中文，大部分不会，我换成了en
   icon:
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
@@ -50,24 +50,24 @@ extra:
 # [Navigtion]
 nav:
   - STUDY_RECORDS:
-    - STUDY_RECORDS/index.md
-    - notion: STUDY_RECORDS/notion/notion.md
-    - docker: STUDY_RECORDS/docker/docker.md
-    - cleancode: STUDY_RECORDS/cleancode/cleancode.md
+      - STUDY_RECORDS/index.md
+      - notion: STUDY_RECORDS/notion/notion.md
+      - docker: STUDY_RECORDS/docker/docker.md
+      - cleancode: STUDY_RECORDS/cleancode/cleancode.md
   - REPRODUCE:
-    - REPRODUCE/index.md
+      - REPRODUCE/index.md
   - ABOUT:
-    - ABOUT/index.md
-    - resume: ABOUT/resume_full.md
-    - support_author: ABOUT/support.md
-    - article_writing_help: ABOUT/help.md
-    - website_build: ABOUT/build.md
-    - test_documentation: ABOUT/test.md
+      - ABOUT/index.md
+      - resume: ABOUT/resume_full.md
+      - support_author: ABOUT/support.md
+      - article_writing_help: ABOUT/help.md
+      - website_build: ABOUT/build.md
+      - test_documentation: ABOUT/test.md
 
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
-    # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
+      # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
       lang:
         - en
         - ja
@@ -78,7 +78,7 @@ markdown_extensions:
   - attr_list # 给图片后面添加{width="300"}设置大小
   - toc:
       permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
+  - pymdownx.highlight:# 代码块高亮
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
