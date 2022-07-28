@@ -44,8 +44,8 @@ extra:
       link: https://space.bilibili.com/384699710
       name: Bilibili | TOBE_BBOC # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/Yang-Xijie
-      name: GitHub | Yang-Xijie
+      link: https://github.com/Fan-Xiaohua
+      name: GitHub | Fan-Xiaohua
 
 # [Navigtion]
 nav:
@@ -53,12 +53,12 @@ nav:
     - STUDY_RECORDS/index.md
     - notion: STUDY_RECORDS/notion/notion.md
     - docker: STUDY_RECORDS/docker/docker.md
-    - cleancode: STUDY_RECORDS/docker/docker.md
+    - cleancode: STUDY_RECORDS/cleancode/cleancode.md
   - REPRODUCE:
     - REPRODUCE/index.md
   - ABOUT:
     - ABOUT/index.md
-    - resume: ABOUT/resume-full.md
+    - resume: ABOUT/resume_full.md
     - support_author: ABOUT/support.md
     - article_writing_help: ABOUT/help.md
     - website_build: ABOUT/build.md
