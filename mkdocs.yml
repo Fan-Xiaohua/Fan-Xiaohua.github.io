@@ -67,7 +67,7 @@ nav:
   - ABOUT:
       - ABOUT/index.md
       #- resume: ABOUT/resume_full.md
-      - support_author: ABOUT/support.md
+      #- support_author: ABOUT/support.md
       - article_writing_help: ABOUT/help.md
       - website_build: ABOUT/build.md
       - test_documentation: ABOUT/test.md
