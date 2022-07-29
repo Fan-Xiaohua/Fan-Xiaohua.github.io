@@ -4,7 +4,7 @@ title: 支持作者
 
 # 支持作者
 
-![](./media/reward.png){ width="300" }
+![](./media/reward.png){width="300"}
 
 可以的话 请我喝一杯咖啡吧
 

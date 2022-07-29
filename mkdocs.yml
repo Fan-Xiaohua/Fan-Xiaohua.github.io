@@ -46,6 +46,14 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Fan-Xiaohua
       name: GitHub | Fan-Xiaohua
+  # alternate: # mutipule languages 未来或许会添加
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Chinese(Simplified)
+  #     link: /zh/
+  #     lang: zh
+
 
 # [Navigtion]
 nav:
@@ -58,7 +66,7 @@ nav:
       - REPRODUCE/index.md
   - ABOUT:
       - ABOUT/index.md
-      - resume: ABOUT/resume_full.md
+      #- resume: ABOUT/resume_full.md
       - support_author: ABOUT/support.md
       - article_writing_help: ABOUT/help.md
       - website_build: ABOUT/build.md
@@ -73,12 +81,12 @@ plugins:
         - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
 markdown_extensions:
-  - pymdownx.arithmatex: # latex支持
+  - pymdownx.arithmatex: # latex支持mk
       generic: true
   - attr_list # 给图片后面添加{width="300"}设置大小
   - toc:
       permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight:# 代码块高亮
+  - pymdownx.highlight: # 代码块高亮
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
